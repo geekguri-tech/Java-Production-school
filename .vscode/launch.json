@@ -1,0 +1,118 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "Java-Production_5bb115ab"
+        },
+        {
+            "type": "java",
+            "name": "Launch Leetcodetwosum",
+            "request": "launch",
+            "mainClass": "Leetcodetwosum",
+            "projectName": "Java-Production_5bb115ab"
+        },
+        {
+            "type": "java",
+            "name": "Launch Maximumvalue",
+            "request": "launch",
+            "mainClass": "Maximumvalue",
+            "projectName": "Java-Production_5bb115ab"
+        },
+        {
+            "type": "java",
+            "name": "Launch Root",
+            "request": "launch",
+            "mainClass": "Root",
+            "projectName": "Java-Production_5bb115ab"
+        },
+        {
+            "type": "java",
+            "name": "Launch Stats",
+            "request": "launch",
+            "mainClass": "Stats",
+            "projectName": "Java-Production_5bb115ab"
+        },
+        {
+            "type": "java",
+            "name": "Launch array",
+            "request": "launch",
+            "mainClass": "array",
+            "projectName": "Java-Production_5bb115ab"
+        },
+        {
+            "type": "java",
+            "name": "Launch arraypractice",
+            "request": "launch",
+            "mainClass": "arraypractice",
+            "projectName": "Java-Production_5bb115ab"
+        },
+        {
+            "type": "java",
+            "name": "Launch numberofpairs",
+            "request": "launch",
+            "mainClass": "numberofpairs",
+            "projectName": "Java-Production_5bb115ab"
+        },
+        {
+            "type": "java",
+            "name": "Launch starpatterndown",
+            "request": "launch",
+            "mainClass": "starpatterndown",
+            "projectName": "Java-Production_5bb115ab"
+        },
+        {
+            "type": "java",
+            "name": "Launch tableoftwo",
+            "request": "launch",
+            "mainClass": "tableoftwo",
+            "projectName": "Java-Production_5bb115ab"
+        },
+        {
+            "type": "java",
+            "name": "Launch uniqueelement",
+            "request": "launch",
+            "mainClass": "uniqueelement",
+            "projectName": "Java-Production_5bb115ab"
+        }
+    ]
+}
