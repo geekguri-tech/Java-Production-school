@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch Repeating",
+            "request": "launch",
+            "mainClass": "Repeating",
+            "projectName": "Java-Production_5bb115ab"
+        },
+        {
             "name": "Java",
             "type": "java",
             "request": "launch",
