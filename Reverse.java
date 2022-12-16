@@ -9,21 +9,21 @@ public class Reverse
         int h = sc.nextInt();
 
         int arra[] = new int[h];
-        for (int i = 0; i < h; i++) ?
+        for (int i = 0; i < h; i++) 
         {
             arra[i] = sc.nextInt();
         }
-        sc.close();?
+        sc.close();
 
         int ans[] = reversie.roof(arra);
 
         for(int k = 0; k < ans.length; k++)
         {
-            System.out.print(ans[k] + ", ");
+            System.out.print(ans[k] + " ");
         }
  
         reverseArray(arra);
-        printArray(arra)
+        System.out.println(arra);
     }
 
     static void swapInArray(int arr[], int i, int j)
@@ -34,16 +34,16 @@ public class Reverse
     }
 
     static void reverseArray(int arr[])
-    [
+    {
         int i = 0,j = arr.length - 1;
 
         while(i < j)
         {
-            swappInArray(arr,i,j);
+            swapInArray(arr,i,j);
             i++;
             j--;
         }
-    ]
+    }
 }
 
 class reversie extends Reverse
